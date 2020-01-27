@@ -5,11 +5,61 @@
   <head>
     <meta charset="utf-8">
     <title>Lorem News</title>
+    <style>
+
+      body {
+        font-family: "Segoen UI", sans-serif;
+        padding: 1%;
+      }
+
+      header {
+        background: #e9ecef;
+        text-align: center;
+        padding-top: 0.25%;
+        padding-bottom: 1.5%;
+      }
+
+      #motto {
+        font-style: italic;
+      }
+
+      main {
+        width: 75%;
+        float: left;
+      }
+
+      nav {
+        width: 25%;
+        float: right;
+      }
+
+      main img{
+        float:left;
+        margin-right:2%;
+
+      }
+
+      nav ul{
+        list-style: none;
+        padding: 0;
+      }
+
+      nav li{
+        padding: 5%;
+        border:1px solid #e9ecef;
+      }
+
+      .article {
+        color = #e9ecef;
+        text-decoration:none;
+      }
+
+    </style>
   </head>
   <body>
     <header>
       <h1>Lorem News</h1>
-      <span>The real fake news</span>
+      <span id="motto">The real fake news</span>
     </header>
     <main>
       <article>
@@ -18,14 +68,15 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a leo quis tellus accumsan dictum nec id dui. Donec commodo nunc sed sapien condimentum condimentum. Quisque mollis dignissim ipsum. Donec volutpat maximus lacus nec rhoncus. Morbi nec eros in justo commodo interdum a eget erat. Sed hendrerit mi aliquet neque sodales consectetur. Morbi suscipit risus orci, a ullamcorper arcu porttitor non. Mauris viverra commodo est, placerat feugiat lorem tempus vel. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris at dignissim sapien. Integer et mauris nec dolor convallis finibus. Sed at bibendum eros, non egestas felis.</p>
           <p>Maecenas scelerisque pretium dui, eget suscipit leo dictum non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean elementum tincidunt nulla, eget scelerisque ante sodales ultricies. Vestibulum in eleifend dui. Mauris dapibus ante commodo urna maximus, eget feugiat risus aliquet. Suspendisse vitae turpis dui. Ut elementum enim eget quam ultricies laoreet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed fringilla dignissim elit, ac rutrum erat blandit et. Nullam luctus lectus quis turpis viverra laoreet.</p>
       </article>
-      <nav>
-        <ul>
-          <li><a href="#">Etiam pharetra dolor sit amet libero vehicula ornare</a></li>
-          <li><a href="#">In nec diam ac tortor rhoncus sollicitudin ac in nulla</a></li>
-          <li><a href="#">Mauris finibus tellus eu tellus condimentum molestie</a></li>
-          <li><a href="#">Praesent tristique neque sed lorem tempus pretium</a></li>
-        </ul>
-      </nav>
     </main>
+    <nav>
+      <h2>See also</h2>
+      <ul>
+        <li><a href="#" class = "article">Etiam pharetra dolor sit amet libero vehicula ornare</a></li>
+        <li><a href="#" class = "article">In nec diam ac tortor rhoncus sollicitudin ac in nulla</a></li>
+        <li><a href="#" class = "article">Mauris finibus tellus eu tellus condimentum molestie</a></li>
+        <li><a href="#" class = "article">Praesent tristique neque sed lorem tempus pretium</a></li>
+      </ul>
+    </nav>
   </body>
 </html>
