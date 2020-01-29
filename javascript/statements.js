@@ -19,4 +19,4 @@ while (i1 < 1000) {
   j = i1;
   i1 = k;
 }
-console.log(i);
+console.log(i1);
