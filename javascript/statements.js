@@ -6,7 +6,7 @@ let x = 0;
 console.log('hiiii');
 
 
-for (var i = 1; i <= 10; i++) {
+for (let i = 1; i <= 10; i++) {
   x = x + i**2
 }
 console.log(x);
@@ -20,3 +20,15 @@ while (i1 < 1000) {
   i1 = k;
 }
 console.log(i1);
+
+for (let i = 1; i <= 100; i++) {
+  if ((i % 3 === 0 && i % 5 !== 0) || (i % 5 === 0 && i % 3 !== 0)) {
+    console.log(i);
+  }
+}
+
+let f = 2;
+for (let i = 3; i <= 10; i++) {
+  f = f*i;
+}
+console.log(f);
