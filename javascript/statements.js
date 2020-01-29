@@ -26,9 +26,3 @@ for (let i = 1; i <= 100; i++) {
     console.log(i);
   }
 }
-
-let f = 2;
-for (let i = 3; i <= 10; i++) {
-  f = f*i;
-}
-console.log(f);
