@@ -8,3 +8,6 @@ const user = readline.createInterface({
 user.question('Filename: ', function(filename){
   console.log(filename);
 });
+
+
+console.log('here');
