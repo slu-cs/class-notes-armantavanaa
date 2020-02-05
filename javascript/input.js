@@ -6,5 +6,5 @@ const user = readline.creatInterface({
 });
 
 user.question('Filename: ', function(filename){
-  console.log(Filename);
+  console.log(filename);
 });
