@@ -6,8 +6,15 @@ const user = readline.createInterface({
 });
 
 user.question('Filename: ', function(filename){
-  console.log(filename);
+  const file = readline.createInterface({
+    input: fs.createReadStream(filename)
+  });
 });
 
+file.on('line', function(line){
+  console.log(line);
+});
 
-console.log('here');
+file.on('line', function(){
+  process.exit(0);
+});
